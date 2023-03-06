@@ -68,4 +68,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Source :
 - GitHub Link: https://github.com/jeremy-fong/react-portfolio
-- Heroku Link: 
+- Heroku Link: https://react-portfolayo.herokuapp.com/

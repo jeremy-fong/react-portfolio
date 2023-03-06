@@ -67,7 +67,7 @@ export default function Blog() {
                 {title}
               </h3>
               <div className='projectsItemLink'>
-                <a href={github} className='btn btn-primary' target={'_blank'}>Github</a>
+                <a href={github} className='btn btn-primary' target='blank'>Github</a>
               </div>
             </article>
             )
