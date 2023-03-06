@@ -64,7 +64,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ```
 
 ## Screenshot Preview of Project :
-
+![react-portfolio-ss](https://user-images.githubusercontent.com/112743562/223100259-21947fdd-f1b0-4bbd-b3eb-3e4005dede67.jpg)
 
 ## Source :
 - GitHub Link: https://github.com/jeremy-fong/react-portfolio
