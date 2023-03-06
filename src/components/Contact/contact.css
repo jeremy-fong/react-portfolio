@@ -1,0 +1,35 @@
+.contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contactOption {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contactOption {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contactOption:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contactIcon {
+    font-size: 1.5rem;
+    margin: 15px 10px 0 0;
+    color: var(--color-primary);
+}
+
+.contactIcon:hover {
+    color: var(--color-white);
+}
