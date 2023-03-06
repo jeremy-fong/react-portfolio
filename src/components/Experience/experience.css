@@ -1,0 +1,41 @@
+.experienceContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.experienceContainer > div {
+    background: var(--color-bg-variant);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}   
+
+.experienceContainer > div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experienceContainer > div h3 {
+    text-align: center;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.experienceContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+}
+
+.experienceDetails {
+    display: flex;
+    gap: 1rem;
+}
+
+.experienceIcon {
+    margin-top: 5px;
+    color: var(--color-primary);
+}
